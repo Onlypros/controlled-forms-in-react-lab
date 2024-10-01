@@ -41,15 +41,15 @@ const Bookshelf = () => {
                         value={newBook.author}
                         onChange={handleInputChange}
                         />
-                        <button type='submit'>Submit</button>
+                        <button type='submit'>Add Book</button>
                     </form>
                     
             </div>
             <div className="bookCardsDiv">
                     {books.map((book, index) => (
                         <div key={index} className="bookCard">
-                            <h4>Title: {book.title}</h4>
-                            <p>Author: {book.author}</p>
+                            <h4>{book.title}</h4>
+                            <p>by: {book.author}</p>
                         </div>
                 ))}
             </div>

@@ -99,4 +99,18 @@ body {
   justify-content: center;
   min-width: 100vw;
   min-height: 100vh;
+  background-color: #252525;
+  color: white;
+}
+
+#titleInput {
+  background-color: #636262;
+}
+#authorInput {
+  background-color: #636262;
+}
+
+label {
+  display: flex;
+  justify-content: left;
 }
